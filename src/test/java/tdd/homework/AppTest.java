@@ -14,6 +14,7 @@ public class AppTest
     App app = new App();
     List<String> params = new ArrayList<>();
 
+
     @Test
     public void stringOnReturnEmptyTest() {
         assertEquals("Hello, my friend",app.stringOnReturn(params));
